@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/timeRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:checked="true"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/eventRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/userIdRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/userEmailRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/userNicknameRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nickname"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/userCategoryRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/users_category"/>
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/logRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

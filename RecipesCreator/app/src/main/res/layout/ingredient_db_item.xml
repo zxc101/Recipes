@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        app:cardCornerRadius="8dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/ingredientBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/ingredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="@string/ingredient"
+                android:textSize="20sp"
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

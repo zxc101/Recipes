@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AdministrationRecipes</string>
+    <string name="email">email</string>
+    <string name="password">пароль</string>
+    <string name="autentification">Авторизация</string>
+    <string name="insert_ingredient">Добавить ингредиент</string>
+    <string name="exit">Выйти</string>
+    <string name="show_logs">Логи</string>
+    <string name="show_inquiries">Запросы пользователей</string>
+    <string name="name_ingredient">Название ингредиента</string>
+    <string name="dimension">Размерность</string>
+    <string name="add">Добавить</string>
+    <string name="nickname">Ник пользователя</string>
+    <string name="users_category">Категория пользователя</string>
+    <string name="update">Обновить</string>
+    <string name="time">Время</string>
+    <string name="table">Таблица</string>
+    <string name="event">Событие</string>
+    <string name="id">id</string>
+    <string name="category">Категория</string>
+    <string name="name">Название</string>
+    <string name="show_dishes">Предложенные рецепты</string>
+    <string name="creater">Автор</string>
+    <string name="recipe">Рецепт</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string-array name="categories">
+        <item>Зритель</item>
+        <item>Редактор</item>
+        <item>Администратор</item>
+    </string-array>
+</resources>
